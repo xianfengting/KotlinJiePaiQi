@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.src_resources.metronome.AppMainFrame">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="90b53" class="javax.swing.JButton" binding="recordButton">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <text value="点我测节拍"/>
+        </properties>
+      </component>
+      <grid id="2b948" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4c835" class="javax.swing.JLabel" binding="tipLabel">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="按按钮以测节拍"/>
+            </properties>
+          </component>
+          <component id="bdcaa" class="javax.swing.JLabel" binding="tipLabel2">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

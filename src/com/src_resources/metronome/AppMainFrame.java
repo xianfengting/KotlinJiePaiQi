@@ -13,6 +13,9 @@ public class AppMainFrame extends JFrame {
     private JLabel tipLabel2;
 
     AppMainFrame() {
+        setTitle("Metronome");
+        setSize(500, 500);
+        setLocationRelativeTo(null); // Let the window at the middle
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setContentPane(mainPanel);
 
